@@ -12,4 +12,4 @@ use App\Http\Controllers\Postcontroller;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/posts',[PostController::class,'index']);
+Route::get('/', [PostController::class, 'index']);
